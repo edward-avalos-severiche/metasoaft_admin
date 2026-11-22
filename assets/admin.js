@@ -1,0 +1,2 @@
+function msSlug(v){return v.toString().normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().trim().replace(/[^a-z0-9]+/g,'-').replace(/^-+|-+$/g,'');}
+function msToast(mensaje,tipo){tipo=tipo||'success';var c=tipo==='danger'?'alert-danger':'alert-success';var id='ms_'+Date.now();jQuery('body').append(`<div id="${id}" class="alert ${c} shadow position-fixed" style="right:20px;top:20px;z-index:99999;min-width:320px">${mensaje}</div>`);setTimeout(()=>jQuery('#'+id).fadeOut(250,function(){jQuery(this).remove()}),2600);}

@@ -1,0 +1,29 @@
+ADMIN METASOFT -> GitHub
+========================
+
+Repositorio:
+https://github.com/metasoftbolivia/metasoft_admin.git
+
+Si tu carpeta XAMPP está en la ruta estándar de Mac:
+
+cd /Applications/XAMPP/xamppfiles/htdocs/metasoaft_admin
+
+git init
+git branch -M main
+git remote remove origin 2>/dev/null || true
+git remote add origin https://github.com/metasoftbolivia/metasoft_admin.git
+git add .
+git status
+git commit -m "Admin MetaSoft - CMS multiweb"
+git push -u origin main
+
+Si el remoto ya tiene commits y Git rechaza el push:
+
+git pull origin main --allow-unrelated-histories
+git push -u origin main
+
+Para siguientes cambios:
+
+git add .
+git commit -m "Actualización Admin MetaSoft"
+git push

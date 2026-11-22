@@ -1,0 +1,1175 @@
+{
+  "header-principal": {
+    "textos": {
+      "boton_demo": "Solicitar demo"
+    },
+    "imagenes": {
+      "logo": "assets/hero/metaroad-logo.png"
+    },
+    "items": [
+      {
+        "slug": "inicio",
+        "titulo": "Inicio",
+        "enlace": "#inicio",
+        "desplegable": 0,
+        "orden": 1,
+        "estado": 1
+      },
+      {
+        "slug": "software",
+        "titulo": "Software",
+        "enlace": "#software",
+        "desplegable": 1,
+        "orden": 2,
+        "estado": 1
+      },
+      {
+        "slug": "modulos",
+        "titulo": "Módulos",
+        "enlace": "#demo",
+        "desplegable": 0,
+        "orden": 3,
+        "estado": 1
+      },
+      {
+        "slug": "beneficios",
+        "titulo": "Beneficios",
+        "enlace": "#beneficios",
+        "desplegable": 0,
+        "orden": 4,
+        "estado": 1
+      },
+      {
+        "slug": "clientes",
+        "titulo": "Clientes",
+        "enlace": "#clientes",
+        "desplegable": 0,
+        "orden": 5,
+        "estado": 1
+      },
+      {
+        "slug": "contacto",
+        "titulo": "Contacto",
+        "enlace": "#contacto",
+        "desplegable": 0,
+        "orden": 6,
+        "estado": 1
+      }
+    ],
+    "estilos": {
+      "menu": {
+        "color": "#ffffff",
+        "color_activo": "#111111",
+        "fondo_activo": "#ffd21f",
+        "font_size": "11px",
+        "font_weight": "700"
+      },
+      "boton_demo": {
+        "color": "#ffd21f",
+        "background": "rgba(7,19,29,0.55)",
+        "border_color": "#ffd21f",
+        "border_radius": "999px",
+        "font_size": "10px",
+        "font_weight": "800"
+      }
+    },
+    "animaciones": {
+      "entrada": {
+        "activo": 1,
+        "tipo": "fadeDown",
+        "duracion": 0.55,
+        "delay": 0,
+        "intensidad": 18
+      }
+    },
+    "configuracion": {
+      "enlace_demo": "#contacto"
+    }
+  },
+  "hero-inicio": {
+    "textos": {
+      "etiqueta": "SOFTWARE DE TRANSPORTE",
+      "titulo": "Tu empresa de<br>transporte.",
+      "titulo_destacado": "Una operación<br>conectada.",
+      "descripcion": "Venta de pasajes, encomiendas, caja, usuarios, unidades y reportes en un solo sistema.",
+      "texto_scroll": "DESPLÁZATE Y EXPLORA"
+    },
+    "botones": {
+      "whatsapp": {
+        "texto": "Solicitar demo por WhatsApp",
+        "enlace": "https://wa.me/59167550917"
+      },
+      "demo": {
+        "texto": "Ver cómo funciona",
+        "enlace": "#demo"
+      }
+    },
+    "imagenes": {
+      "fondo": "assets/hero/hero-background.webp",
+      "overlay": "assets/hero/hero-overlay.svg",
+      "road_glow": "assets/hero/hero-road-glow.svg",
+      "anillos": "assets/hero/hero-light-rings.svg",
+      "particulas": "assets/hero/hero-particles.svg",
+      "plataforma": "assets/hero/hero-platform.png",
+      "bus": "assets/hero/bus-hero.png"
+    },
+    "items": [
+      {
+        "slug": "pasajes",
+        "titulo": "Venta de pasajes",
+        "icono": "assets/icons/pasajes.svg",
+        "orden": 1,
+        "estado": 1,
+        "estilo": {
+          "color": "#ffffff",
+          "background": "rgba(9,19,31,0.86)",
+          "border_color": "#84dfff",
+          "glow_color": "#59ccff"
+        },
+        "animacion": {
+          "activo": 1,
+          "tipo": "scaleIn",
+          "duracion": 0.42,
+          "delay": 0.0,
+          "intensidad": 18
+        }
+      },
+      {
+        "slug": "encomiendas",
+        "titulo": "Encomiendas",
+        "icono": "assets/icons/encomiendas.svg",
+        "orden": 2,
+        "estado": 1,
+        "estilo": {
+          "color": "#ffffff",
+          "background": "rgba(9,19,31,0.86)",
+          "border_color": "#84dfff",
+          "glow_color": "#59ccff"
+        },
+        "animacion": {
+          "activo": 1,
+          "tipo": "scaleIn",
+          "duracion": 0.42,
+          "delay": 0.07,
+          "intensidad": 18
+        }
+      },
+      {
+        "slug": "caja",
+        "titulo": "Caja y egresos",
+        "icono": "assets/icons/caja.svg",
+        "orden": 3,
+        "estado": 1,
+        "estilo": {
+          "color": "#ffffff",
+          "background": "rgba(9,19,31,0.86)",
+          "border_color": "#ffd21f",
+          "glow_color": "#ffd21f"
+        },
+        "animacion": {
+          "activo": 1,
+          "tipo": "scaleIn",
+          "duracion": 0.42,
+          "delay": 0.14,
+          "intensidad": 18
+        }
+      },
+      {
+        "slug": "usuarios",
+        "titulo": "Usuarios y permisos",
+        "icono": "assets/icons/usuarios.svg",
+        "orden": 4,
+        "estado": 1,
+        "estilo": {
+          "color": "#ffffff",
+          "background": "rgba(9,19,31,0.86)",
+          "border_color": "#84dfff",
+          "glow_color": "#59ccff"
+        },
+        "animacion": {
+          "activo": 1,
+          "tipo": "scaleIn",
+          "duracion": 0.42,
+          "delay": 0.21,
+          "intensidad": 18
+        }
+      },
+      {
+        "slug": "unidades",
+        "titulo": "Unidades y flota",
+        "icono": "assets/icons/unidades.svg",
+        "orden": 5,
+        "estado": 1,
+        "estilo": {
+          "color": "#ffffff",
+          "background": "rgba(9,19,31,0.86)",
+          "border_color": "#84dfff",
+          "glow_color": "#59ccff"
+        },
+        "animacion": {
+          "activo": 1,
+          "tipo": "scaleIn",
+          "duracion": 0.42,
+          "delay": 0.28,
+          "intensidad": 18
+        }
+      },
+      {
+        "slug": "reportes",
+        "titulo": "Reportes",
+        "icono": "assets/icons/reportes.svg",
+        "orden": 6,
+        "estado": 1,
+        "estilo": {
+          "color": "#ffffff",
+          "background": "rgba(9,19,31,0.86)",
+          "border_color": "#84dfff",
+          "glow_color": "#59ccff"
+        },
+        "animacion": {
+          "activo": 1,
+          "tipo": "scaleIn",
+          "duracion": 0.42,
+          "delay": 0.35,
+          "intensidad": 18
+        }
+      }
+    ],
+    "estilos": {
+      "textos": {
+        "etiqueta": {
+          "color": "#ffffff",
+          "font_size": "10px",
+          "font_weight": "900",
+          "text_align": "left",
+          "line_height": "1.2",
+          "letter_spacing": "0.6px",
+          "text_transform": "uppercase"
+        },
+        "titulo": {
+          "color": "#ffffff",
+          "font_size": "46px",
+          "font_weight": "900",
+          "text_align": "left",
+          "line_height": "0.98",
+          "letter_spacing": "-1.7px",
+          "text_transform": "none"
+        },
+        "titulo_destacado": {
+          "color": "#ffd21f",
+          "font_size": "46px",
+          "font_weight": "900",
+          "text_align": "left",
+          "line_height": "0.98",
+          "letter_spacing": "-1.7px",
+          "text_transform": "none"
+        },
+        "descripcion": {
+          "color": "#f1f5f8",
+          "font_size": "11px",
+          "font_weight": "400",
+          "text_align": "left",
+          "line_height": "1.5",
+          "letter_spacing": "0px",
+          "text_transform": "none"
+        },
+        "texto_scroll": {
+          "color": "#ffffff",
+          "font_size": "8px",
+          "font_weight": "500",
+          "text_align": "center",
+          "line_height": "1.2",
+          "letter_spacing": "1.1px",
+          "text_transform": "uppercase"
+        }
+      },
+      "botones": {
+        "whatsapp": {
+          "color": "#111111",
+          "background": "#ffd21f",
+          "border_color": "#ffd21f",
+          "border_radius": "999px",
+          "font_size": "10px",
+          "font_weight": "800"
+        },
+        "demo": {
+          "color": "#ffffff",
+          "background": "rgba(7,19,29,0.73)",
+          "border_color": "#dce8ef",
+          "border_radius": "999px",
+          "font_size": "10px",
+          "font_weight": "800"
+        }
+      },
+      "seccion": {
+        "background_color": "#071019"
+      }
+    },
+    "animaciones": {
+      "seccion": {
+        "activo": 1,
+        "tipo": "fadeIn",
+        "duracion": 0.7,
+        "delay": 0,
+        "intensidad": 20
+      },
+      "titulo": {
+        "activo": 1,
+        "tipo": "fadeUp",
+        "duracion": 0.65,
+        "delay": 0.12,
+        "intensidad": 28
+      },
+      "bus": {
+        "activo": 1,
+        "tipo": "scaleIn",
+        "duracion": 0.8,
+        "delay": 0.35,
+        "intensidad": 20
+      },
+      "cards": {
+        "activo": 1,
+        "tipo": "staggerUp",
+        "duracion": 0.42,
+        "delay": 0.45,
+        "intensidad": 20
+      },
+      "particulas": {
+        "activo": 1,
+        "tipo": "float",
+        "duracion": 6,
+        "delay": 0,
+        "intensidad": 10
+      }
+    },
+    "configuracion": {
+      "distribucion": "texto_izquierda_imagen_derecha"
+    }
+  },
+  "demo-interactiva": {
+    "textos": {
+      "etiqueta": "DEMO INTERACTIVA",
+      "titulo": "Prueba cómo<br>funciona METAROAD",
+      "descripcion": "Interactúa con los módulos y descubre el flujo completo de tu operación."
+    },
+    "pasos": [
+      {
+        "numero": 1,
+        "texto": "Selecciona un módulo"
+      },
+      {
+        "numero": 2,
+        "texto": "Interactúa"
+      },
+      {
+        "numero": 3,
+        "texto": "Conoce el resultado"
+      }
+    ],
+    "imagenes": {
+      "bus_principal": "assets/hero/bus-hero.png"
+    },
+    "items": [
+      {
+        "slug": "pasajes",
+        "titulo": "Venta de pasajes",
+        "icono": "assets/icons/pasajes.svg",
+        "orden": 1,
+        "estado": 1,
+        "descripcion": "Registro de ventas, selección de asientos y emisión de boletos.",
+        "informacion": [
+          "Selección de asientos",
+          "Registro de ventas",
+          "Emisión de boletos",
+          "Control de rutas y horarios"
+        ],
+        "escena": {
+          "asiento": "14",
+          "ruta": "La Paz → Cochabamba",
+          "fecha_hora": "20 Nov 2026 · 19:30",
+          "boton": "Emitir boleto",
+          "boleto_titulo": "METAROAD",
+          "boleto_subtitulo": "Boleto de Viaje",
+          "boleto_ruta": "La Paz → Cochabamba",
+          "boleto_asiento": "Asiento 14",
+          "codigo": "MR-PAS-014"
+        },
+        "estilo": {
+          "accent": "#ffd21f",
+          "panel_background": "rgba(13,69,100,0.95)",
+          "panel_border": "#4bd9ff"
+        },
+        "animacion": {
+          "activo": 1,
+          "tipo": "fadeIn",
+          "duracion": 0.45,
+          "delay": 0,
+          "intensidad": 18
+        }
+      },
+      {
+        "slug": "encomiendas",
+        "titulo": "Encomiendas",
+        "icono": "assets/icons/encomiendas.svg",
+        "orden": 2,
+        "estado": 1,
+        "descripcion": "Registro, control y seguimiento de envíos.",
+        "informacion": [
+          "Registro del envío",
+          "Seguimiento del estado",
+          "Control del recorrido"
+        ],
+        "escena": {
+          "titulo_panel": "Gestión de encomiendas",
+          "codigo": "MR-458932",
+          "ruta": "La Paz → Cochabamba",
+          "estado": "En tránsito",
+          "estados": [
+            "Registro del envío",
+            "En tránsito",
+            "En ruta",
+            "En entrega",
+            "Entregado"
+          ]
+        },
+        "estilo": {
+          "accent": "#ffd21f",
+          "panel_background": "rgba(13,69,100,0.95)",
+          "panel_border": "#4bd9ff"
+        },
+        "animacion": {
+          "activo": 1,
+          "tipo": "slideRight",
+          "duracion": 0.45,
+          "delay": 0,
+          "intensidad": 24
+        }
+      },
+      {
+        "slug": "caja",
+        "titulo": "Caja y egresos",
+        "icono": "assets/icons/caja.svg",
+        "orden": 3,
+        "estado": 1,
+        "descripcion": "Control de ingresos, egresos y cierre de caja.",
+        "informacion": [
+          "Ingresos",
+          "Egresos",
+          "Cierre de caja"
+        ],
+        "escena": {
+          "titulo_panel": "Caja y egresos",
+          "ingresos": "Bs 42,850.00",
+          "egresos": "Bs 12,430.00",
+          "resultado": "Bs 30,420.00",
+          "movimientos": [
+            {
+              "concepto": "Venta de pasajes",
+              "monto": "Bs 1,250.00",
+              "tipo": "ingreso"
+            },
+            {
+              "concepto": "Encomienda",
+              "monto": "Bs 320.00",
+              "tipo": "ingreso"
+            },
+            {
+              "concepto": "Combustible",
+              "monto": "-Bs 2,000.00",
+              "tipo": "egreso"
+            },
+            {
+              "concepto": "Mantenimiento",
+              "monto": "-Bs 600.00",
+              "tipo": "egreso"
+            }
+          ]
+        },
+        "estilo": {
+          "accent": "#ffd21f",
+          "panel_background": "rgba(13,69,100,0.95)",
+          "panel_border": "#4bd9ff"
+        },
+        "animacion": {
+          "activo": 1,
+          "tipo": "fadeUp",
+          "duracion": 0.45,
+          "delay": 0,
+          "intensidad": 20
+        }
+      },
+      {
+        "slug": "usuarios",
+        "titulo": "Usuarios y permisos",
+        "icono": "assets/icons/usuarios.svg",
+        "orden": 4,
+        "estado": 1,
+        "descripcion": "Gestión de usuarios, roles y niveles de acceso.",
+        "informacion": [
+          "Usuarios",
+          "Roles",
+          "Niveles de acceso"
+        ],
+        "escena": {
+          "titulo_panel": "Usuarios y permisos",
+          "usuarios": [
+            {
+              "nombre": "Carlos Mendoza",
+              "rol": "Administrador"
+            },
+            {
+              "nombre": "Ana Torres",
+              "rol": "Ventas"
+            },
+            {
+              "nombre": "Luis Paredes",
+              "rol": "Operaciones"
+            },
+            {
+              "nombre": "María Rojas",
+              "rol": "Caja"
+            }
+          ],
+          "permisos": [
+            "Gestión de ventas",
+            "Encomiendas",
+            "Caja y egresos",
+            "Reportes",
+            "Gestión de flota"
+          ]
+        },
+        "estilo": {
+          "accent": "#ffd21f",
+          "panel_background": "rgba(13,69,100,0.95)",
+          "panel_border": "#4bd9ff"
+        },
+        "animacion": {
+          "activo": 1,
+          "tipo": "scaleIn",
+          "duracion": 0.45,
+          "delay": 0,
+          "intensidad": 16
+        }
+      },
+      {
+        "slug": "unidades",
+        "titulo": "Unidades y flota",
+        "icono": "assets/icons/unidades.svg",
+        "orden": 5,
+        "estado": 1,
+        "descripcion": "Administración de unidades, disponibilidad y mantenimiento.",
+        "informacion": [
+          "Unidades",
+          "Disponibilidad",
+          "Mantenimiento"
+        ],
+        "escena": {
+          "titulo_panel": "Unidades y flota",
+          "unidad_principal": "Unidad MR-101",
+          "estado_principal": "Operativa",
+          "flota": [
+            {
+              "unidad": "MR-101",
+              "estado": "Operativa"
+            },
+            {
+              "unidad": "MR-102",
+              "estado": "En ruta"
+            },
+            {
+              "unidad": "MR-103",
+              "estado": "Mantenimiento"
+            }
+          ],
+          "resumen": {
+            "unidades": "3",
+            "operativas": "2",
+            "en_ruta": "1"
+          }
+        },
+        "estilo": {
+          "accent": "#ffd21f",
+          "panel_background": "rgba(13,69,100,0.95)",
+          "panel_border": "#4bd9ff"
+        },
+        "animacion": {
+          "activo": 1,
+          "tipo": "slideLeft",
+          "duracion": 0.45,
+          "delay": 0,
+          "intensidad": 24
+        }
+      },
+      {
+        "slug": "reportes",
+        "titulo": "Reportes",
+        "icono": "assets/icons/reportes.svg",
+        "orden": 6,
+        "estado": 1,
+        "descripcion": "Informes y estadísticas de ventas, encomiendas y operación.",
+        "informacion": [
+          "Ventas",
+          "Encomiendas",
+          "Ingresos y egresos",
+          "Operación"
+        ],
+        "escena": {
+          "titulo_panel": "Reportes y análisis",
+          "total_ventas": "Bs 128,750.00",
+          "variacion_ventas": "▲ 12.4%",
+          "pasajes_vendidos": "3,842",
+          "variacion_pasajes": "▲ 9.8%",
+          "rutas": [
+            "La Paz → Cochabamba",
+            "Cochabamba → La Paz",
+            "La Paz → Santa Cruz"
+          ],
+          "acciones": [
+            "Exportar reporte",
+            "PDF",
+            "Excel"
+          ]
+        },
+        "estilo": {
+          "accent": "#ffd21f",
+          "panel_background": "rgba(13,69,100,0.95)",
+          "panel_border": "#4bd9ff"
+        },
+        "animacion": {
+          "activo": 1,
+          "tipo": "fadeIn",
+          "duracion": 0.45,
+          "delay": 0,
+          "intensidad": 20
+        }
+      }
+    ],
+    "estilos": {
+      "textos": {
+        "etiqueta": {
+          "color": "#ffffff",
+          "font_size": "11px",
+          "font_weight": "900",
+          "text_align": "left",
+          "line_height": "1.2",
+          "letter_spacing": "0.04em",
+          "text_transform": "uppercase"
+        },
+        "titulo": {
+          "color": "#ffffff",
+          "font_size": "36px",
+          "font_weight": "900",
+          "text_align": "left",
+          "line_height": "1.0",
+          "letter_spacing": "-1px",
+          "text_transform": "none"
+        },
+        "descripcion": {
+          "color": "#ffffff",
+          "font_size": "11px",
+          "font_weight": "400",
+          "text_align": "left",
+          "line_height": "1.45",
+          "letter_spacing": "0px",
+          "text_transform": "none"
+        }
+      },
+      "tabs": {
+        "color": "#ffffff",
+        "background": "rgba(255,255,255,0.025)",
+        "border_color": "rgba(255,255,255,0.34)",
+        "active_color": "#111111",
+        "active_background": "#ffd21f",
+        "active_border": "#ffd21f"
+      },
+      "pasos": {
+        "color": "#ffffff",
+        "active_color": "#111111",
+        "active_background": "#ffd21f"
+      },
+      "seccion": {
+        "background_color": "#071019"
+      }
+    },
+    "animaciones": {
+      "seccion": {
+        "activo": 1,
+        "tipo": "fadeIn",
+        "duracion": 0.7,
+        "delay": 0,
+        "intensidad": 18
+      },
+      "cambio_modulo": {
+        "activo": 1,
+        "tipo": "fadeIn",
+        "duracion": 0.35,
+        "delay": 0,
+        "intensidad": 16
+      },
+      "pasos": {
+        "activo": 1,
+        "tipo": "fadeDown",
+        "duracion": 0.45,
+        "delay": 0.1,
+        "intensidad": 14
+      }
+    },
+    "configuracion": {
+      "modulo_inicial": "pasajes"
+    }
+  },
+  "recorrido-encomienda": {
+    "textos": {
+      "titulo": "Recorrido de<br>una encomienda",
+      "descripcion": "Registra, sigue y entrega tus envíos con trazabilidad en tiempo real.",
+      "titulo_buscador": "Seguimiento de encomienda",
+      "placeholder_buscador": "MR-458932"
+    },
+    "imagenes": {
+      "paquete": "assets/sections/package-standalone.svg"
+    },
+    "items": [
+      {
+        "slug": "registrada",
+        "titulo": "Registrada",
+        "icono": "",
+        "orden": 1,
+        "estado": 1
+      },
+      {
+        "slug": "en-transito",
+        "titulo": "En tránsito",
+        "icono": "assets/icons/unidades.svg",
+        "orden": 2,
+        "estado": 1
+      },
+      {
+        "slug": "en-ruta",
+        "titulo": "En ruta",
+        "icono": "assets/icons/ubicacion.svg",
+        "orden": 3,
+        "estado": 1
+      },
+      {
+        "slug": "entregada",
+        "titulo": "Entregada",
+        "icono": "",
+        "orden": 4,
+        "estado": 1
+      }
+    ],
+    "estilos": {
+      "textos": {
+        "titulo": {
+          "color": "#111111",
+          "font_size": "25px",
+          "font_weight": "900",
+          "text_align": "left",
+          "line_height": "0.95",
+          "letter_spacing": "0px",
+          "text_transform": "none"
+        },
+        "descripcion": {
+          "color": "#343a40",
+          "font_size": "10px",
+          "font_weight": "400",
+          "text_align": "left",
+          "line_height": "1.4",
+          "letter_spacing": "0px",
+          "text_transform": "none"
+        },
+        "titulo_buscador": {
+          "color": "#ffffff",
+          "font_size": "10px",
+          "font_weight": "800",
+          "text_align": "left",
+          "line_height": "1.2",
+          "letter_spacing": "0px",
+          "text_transform": "none"
+        }
+      },
+      "linea": {
+        "color": "#ffd21f",
+        "completado": "#28c65b"
+      },
+      "seccion": {
+        "background_color": "#f4f6f8"
+      }
+    },
+    "animaciones": {
+      "seccion": {
+        "activo": 1,
+        "tipo": "fadeUp",
+        "duracion": 0.6,
+        "delay": 0,
+        "intensidad": 20
+      },
+      "estados": {
+        "activo": 1,
+        "tipo": "staggerUp",
+        "duracion": 0.42,
+        "delay": 0.12,
+        "intensidad": 18
+      }
+    },
+    "configuracion": {}
+  },
+  "beneficios-inicio": {
+    "textos": {
+      "titulo": "¿Por qué elegir<br><em>METAROAD?</em>",
+      "descripcion": "Potencia tu empresa con una solución moderna, segura y escalable."
+    },
+    "imagenes": {
+      "dashboard": "assets/sections/dashboard-laptop-standalone.svg"
+    },
+    "items": [
+      {
+        "slug": "mas-ventas",
+        "titulo": "Más ventas",
+        "icono": "assets/icons/licencias.svg",
+        "orden": 1,
+        "estado": 1,
+        "estilo": {
+          "color": "#111111",
+          "background": "#ffffff",
+          "icon_color": "#f8bd00"
+        },
+        "animacion": {
+          "activo": 1,
+          "tipo": "fadeUp",
+          "duracion": 0.42,
+          "delay": 0.0,
+          "intensidad": 18
+        }
+      },
+      {
+        "slug": "seguridad",
+        "titulo": "Seguridad",
+        "icono": "assets/icons/escudo.svg",
+        "orden": 2,
+        "estado": 1,
+        "estilo": {
+          "color": "#111111",
+          "background": "#ffffff",
+          "icon_color": "#f8bd00"
+        },
+        "animacion": {
+          "activo": 1,
+          "tipo": "fadeUp",
+          "duracion": 0.42,
+          "delay": 0.06,
+          "intensidad": 18
+        }
+      },
+      {
+        "slug": "puntualidad",
+        "titulo": "Puntualidad",
+        "icono": "assets/icons/reloj.svg",
+        "orden": 3,
+        "estado": 1,
+        "estilo": {
+          "color": "#111111",
+          "background": "#ffffff",
+          "icon_color": "#f8bd00"
+        },
+        "animacion": {
+          "activo": 1,
+          "tipo": "fadeUp",
+          "duracion": 0.42,
+          "delay": 0.12,
+          "intensidad": 18
+        }
+      },
+      {
+        "slug": "operacion-integral",
+        "titulo": "Operación integral",
+        "icono": "assets/icons/caja.svg",
+        "orden": 4,
+        "estado": 1,
+        "estilo": {
+          "color": "#111111",
+          "background": "#ffffff",
+          "icon_color": "#f8bd00"
+        },
+        "animacion": {
+          "activo": 1,
+          "tipo": "fadeUp",
+          "duracion": 0.42,
+          "delay": 0.18,
+          "intensidad": 18
+        }
+      },
+      {
+        "slug": "reportes-inteligentes",
+        "titulo": "Reportes inteligentes",
+        "icono": "assets/icons/reportes.svg",
+        "orden": 5,
+        "estado": 1,
+        "estilo": {
+          "color": "#111111",
+          "background": "#ffffff",
+          "icon_color": "#f8bd00"
+        },
+        "animacion": {
+          "activo": 1,
+          "tipo": "fadeUp",
+          "duracion": 0.42,
+          "delay": 0.24,
+          "intensidad": 18
+        }
+      },
+      {
+        "slug": "soporte",
+        "titulo": "Soporte",
+        "icono": "assets/icons/soporte.svg",
+        "orden": 6,
+        "estado": 1,
+        "estilo": {
+          "color": "#111111",
+          "background": "#ffffff",
+          "icon_color": "#f8bd00"
+        },
+        "animacion": {
+          "activo": 1,
+          "tipo": "fadeUp",
+          "duracion": 0.42,
+          "delay": 0.3,
+          "intensidad": 18
+        }
+      }
+    ],
+    "estilos": {
+      "textos": {
+        "titulo": {
+          "color": "#111111",
+          "font_size": "25px",
+          "font_weight": "900",
+          "text_align": "left",
+          "line_height": "0.95",
+          "letter_spacing": "0px",
+          "text_transform": "none"
+        },
+        "descripcion": {
+          "color": "#444b52",
+          "font_size": "10px",
+          "font_weight": "400",
+          "text_align": "left",
+          "line_height": "1.4",
+          "letter_spacing": "0px",
+          "text_transform": "none"
+        }
+      },
+      "titulo_destacado": {
+        "color": "#f8bd00"
+      },
+      "seccion": {
+        "background_color": "#f4f6f8"
+      }
+    },
+    "animaciones": {
+      "seccion": {
+        "activo": 1,
+        "tipo": "fadeUp",
+        "duracion": 0.6,
+        "delay": 0,
+        "intensidad": 18
+      },
+      "cards": {
+        "activo": 1,
+        "tipo": "staggerUp",
+        "duracion": 0.42,
+        "delay": 0.1,
+        "intensidad": 16
+      },
+      "dashboard": {
+        "activo": 1,
+        "tipo": "slideLeft",
+        "duracion": 0.6,
+        "delay": 0.18,
+        "intensidad": 22
+      }
+    },
+    "configuracion": {}
+  },
+  "contacto-inicio": {
+    "textos": {
+      "titulo": "Conversemos sobre<br>lo que necesitas.",
+      "descripcion": "Déjanos tus datos y cuéntanos cómo trabaja tu empresa. Te ayudaremos a conocer METAROAD.",
+      "texto_boton": "Enviar solicitud",
+      "texto_whatsapp": "Contáctanos<br>por WhatsApp"
+    },
+    "formulario": {
+      "nombre": {
+        "label": "Nombre completo",
+        "placeholder": "Nombre completo",
+        "requerido": 1
+      },
+      "empresa": {
+        "label": "Empresa",
+        "placeholder": "Empresa",
+        "requerido": 0
+      },
+      "telefono": {
+        "label": "Teléfono o WhatsApp",
+        "placeholder": "Teléfono o WhatsApp",
+        "requerido": 1
+      },
+      "correo": {
+        "label": "Correo electrónico",
+        "placeholder": "Correo electrónico",
+        "requerido": 1
+      },
+      "mensaje": {
+        "label": "Mensaje",
+        "placeholder": "Cuéntanos sobre tu empresa o lo que necesitas.",
+        "requerido": 1
+      }
+    },
+    "datos": {
+      "direccion": "Pacieri 717 casi Antezana Cochabamba",
+      "telefono_1": "74276774",
+      "whatsapp": "67550917",
+      "correo": ""
+    },
+    "imagenes": {
+      "ondas": "assets/decor/contact-waves.svg"
+    },
+    "estilos": {
+      "textos": {
+        "titulo": {
+          "color": "#ffffff",
+          "font_size": "27px",
+          "font_weight": "900",
+          "text_align": "left",
+          "line_height": "0.98",
+          "letter_spacing": "0px",
+          "text_transform": "none"
+        },
+        "descripcion": {
+          "color": "#d7dfe5",
+          "font_size": "10px",
+          "font_weight": "400",
+          "text_align": "left",
+          "line_height": "1.45",
+          "letter_spacing": "0px",
+          "text_transform": "none"
+        },
+        "texto_boton": {
+          "color": "#111111",
+          "font_size": "10px",
+          "font_weight": "800",
+          "text_align": "center",
+          "line_height": "1.2",
+          "letter_spacing": "0px",
+          "text_transform": "none"
+        },
+        "texto_whatsapp": {
+          "color": "#ffffff",
+          "font_size": "18px",
+          "font_weight": "800",
+          "text_align": "center",
+          "line_height": "1.05",
+          "letter_spacing": "0px",
+          "text_transform": "none"
+        }
+      },
+      "formulario": {
+        "label_color": "#ffffff",
+        "input_background": "#ffffff",
+        "input_color": "#111111",
+        "border_color": "#d9dde2",
+        "required_color": "#ff5454",
+        "button_background": "#ffd21f",
+        "button_color": "#111111"
+      },
+      "whatsapp": {
+        "background": "#45c82b",
+        "color": "#ffffff"
+      },
+      "seccion": {
+        "background_color": "#061009"
+      }
+    },
+    "animaciones": {
+      "seccion": {
+        "activo": 1,
+        "tipo": "fadeUp",
+        "duracion": 0.6,
+        "delay": 0,
+        "intensidad": 18
+      },
+      "formulario": {
+        "activo": 1,
+        "tipo": "slideRight",
+        "duracion": 0.55,
+        "delay": 0.12,
+        "intensidad": 22
+      },
+      "mapa": {
+        "activo": 1,
+        "tipo": "fadeIn",
+        "duracion": 0.55,
+        "delay": 0.18,
+        "intensidad": 18
+      },
+      "whatsapp": {
+        "activo": 1,
+        "tipo": "scaleIn",
+        "duracion": 0.55,
+        "delay": 0.22,
+        "intensidad": 16
+      }
+    },
+    "configuracion": {
+      "mostrar_mapa": 1,
+      "mostrar_whatsapp": 1,
+      "mapa_query": "Pacieri 717 casi Antezana Cochabamba Bolivia"
+    }
+  },
+  "footer-principal": {
+    "textos": {
+      "copyright": "METAROAD · Software de Transporte",
+      "ubicacion": "Cochabamba, Bolivia",
+      "telefonos": "74276774 · 67550917"
+    },
+    "imagenes": {
+      "logo": "assets/hero/metaroad-logo.png"
+    },
+    "estilos": {
+      "textos": {
+        "copyright": {
+          "color": "#ffffff",
+          "font_size": "10px",
+          "font_weight": "600",
+          "text_align": "left",
+          "line_height": "1.2",
+          "letter_spacing": "0px",
+          "text_transform": "none"
+        },
+        "ubicacion": {
+          "color": "#d7dfe5",
+          "font_size": "9px",
+          "font_weight": "400",
+          "text_align": "right",
+          "line_height": "1.2",
+          "letter_spacing": "0px",
+          "text_transform": "none"
+        },
+        "telefonos": {
+          "color": "#d7dfe5",
+          "font_size": "9px",
+          "font_weight": "400",
+          "text_align": "right",
+          "line_height": "1.2",
+          "letter_spacing": "0px",
+          "text_transform": "none"
+        }
+      },
+      "seccion": {
+        "background_color": "#05090e"
+      }
+    },
+    "animaciones": {},
+    "configuracion": {}
+  }
+}
